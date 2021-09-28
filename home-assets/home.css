@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bd-grid{
+    max-width: 1024px;
+    grid-template-columns: 100%;
+    grid-column-gap: 3rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+/* .ll-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146,161,176,.15);
+}
+.navv{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    gap: 4%;
+  }
+  .nav-item{
+      display: none;
+      color: #0E2431;
+  }
+  .nav-logo{
+      color: #0E2431;
+      padding: 1rem;
+  } */
+  /* .logo-name{
+    width: 70%;
+} */
+.row{
+    margin: 4%;
+    display: block;
+    width: 100%;
+    color: black;
+}
+.head-text1{
+    margin: 2%;
+    width: 90%;
+    color: black;
+}
+.text-head1{
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+}
+.text-head1:hover{
+    color: #4070F4;
+}
+#main-text1{
+    width: 100%;
+}
+#moon{
+    display: none;
+ }
+ .card{
+     color: black;
+     width: 100%;
+ }
+ .content p{
+     color: black;
+     overflow-x: hidden;
+ }
+  @media screen and (min-width: 1024px){
+    /* .nav_toggle{
+        display: none;
+    }
+    .bd-gridd{
+        grid-column-gap: 10rem;
+    }
+    .nav-item{
+        display: inline;
+        color: #0E2431;
+        /* width: 100%; */
+    /* }  */
+    /* .nav-logo{
+        color: #0E2431;
+        padding: 3rem;
+        /* width: 100%; */
+    /* } */ 
+    /* .logo-name{
+        width: 50%;
+    }
+    .nav__list{
+        display: flex;
+        gap: 10%;
+    }
+    .nav__menu{
+        width: 100%;
+    }
+    .nav__link:hover{
+        position: relative;
+        color:   #4070F4;
+      }
+      .nav__link:hover::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0.38rem;
+        left: 0;
+        top: 3.2rem;
+        background-color:  #4070F4;
+      } */
+      .row{
+          display: flex;
+          color: black;
+      }
+      #main-text1{
+          width: 30%;
+      }
+      #moon{
+          display: inline;
+          width: 30px;
+          cursor: pointer;
+          text-align: left;
+          position: absolute; right: 10%; top: 25%;
+      }
+      .card{
+          width: 23%;
+      }
+    }
+    
